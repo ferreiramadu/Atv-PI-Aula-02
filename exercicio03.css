@@ -1,0 +1,34 @@
+body {
+    background-color: #D3D3D3;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 500px;
+    background-color: #FFF;
+    border: 10px dotted black;
+}
+
+.container div:first-child {
+    background-color: yellow;
+    width: 30%;
+    height: 50px;
+}
+
+.container div:nth-child(2) {
+    background-color: rgb(247, 133, 27);
+    width: 30%;
+    height: 100px;
+}
+
+.container div:last-child {
+    background-color: rgb(2, 173, 2);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin: 50px 0 0 50px;
+}
